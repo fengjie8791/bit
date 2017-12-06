@@ -1,3 +1,8 @@
 $(function(){
-	console.log(1234)
+	$('#myList a').on('click', function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	  $(".list-group-item").removeClass('active');
+	  $(this).addClass('active');
+	})
 })
