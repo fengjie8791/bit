@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bit</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="lib/js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">LOGO</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-center">		        
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BUY <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="index.html">BTC</a></li>
+		            <li><a href="#">ETH</a></li>
+		            <li><a href="#">OTHERS</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">SELL</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">POST <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="post.html">BTC</a></li>
+		            <li><a href="#">ETH</a></li>
+		            <li><a href="#">OTHERS</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">SEARCH</a></li>
+		      </ul>		      
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">EN/中</a></li>
+		        <li><a href="#">LOGIN</a></li>
+
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="well-box col-md-12">
+					<div class="well-height-customize well"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="well-box col-md-4">
+					<div class="well">
+						<h1 class="text-center">326047.89</h1>
+						<hr>
+						<div class="list-centent row">
+							<div class="col-xs-4 text-center">
+						 		<img src="images/profile/profile_photo.png" alt="">
+						 	</div>
+							<div class="col-xs-8">
+							   	<h5 class="mt-0">Name</h5>
+								<p>Trust 1 Trade 1</p>
+							</div>
+						</div>
+						<hr>
+						<a class="btn btn-primary" href="chat.html">Chat</a>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buyModal">BUY</button>
+					</div>
+				</div>
+				<div class="well-box col-md-4">
+					<div class="well well-height-customize"></div>
+				</div>
+				<div class="well-box col-md-4">
+					<div class="well well-height-customize"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="well-box col-md-4">
+					<div class="well well-height-customize"></div>
+				</div>
+				<div class="well-box col-md-4">
+					<div class="well well-height-customize"></div>
+				</div>
+				<div class="well-box col-md-4">
+					<div class="well well-height-customize"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="well-box col-md-12">
+					<div class="well-height-customize well"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">BUY BUY BUY</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		        	<div class="col-xs-6">
+		        		<div class="list-centent row">
+							<div class="col-xs-12 text-center">
+						 		<img src="images/profile/profile_photo.png" alt="">
+						 	</div>
+							<div class="col-xs-12 text-center">
+							   	<h5 class="mt-0">Name</h5>
+								<p>Trust 1 Trade 1</p>
+							</div>
+						</div>
+						<div class="text-center">
+							<a class="btn btn-primary" href="chat.html">Chat</a>
+						</div>
+		        	</div>
+		        	<div class="col-xs-6">
+		        		<h4 class="mb-5">Price</h4>
+						<p class="mb-20">3340.07 CNY/ETH</p>
+						<h4 class="mb-5">Limits</h4>
+						<p class="mb-20">1000 - 1000 CNY</p>
+						<h4 class="mb-5">Payment method</h4>
+						<p class="mb-20">Alipay</p>
+						<h4 class="mb-5">Time of payment</h4>
+						<p class="mb-20">30 minitues</p>
+		        	</div>
+		        </div>
+		        <div class="row">
+		        	<div class="col-xs-12">
+		        		<form>
+						  <div class="row"> 
+						    <div class="col-md-6">
+						      <label for="validationDefault01">CNY</label>
+						      <input type="text" class="form-control" id="validationDefault01" placeholder="CNY" value="" required>
+						    </div>
+						    <div class="col-md-6">
+						      <label for="validationDefault02">ETH</label>
+						      <input type="text" class="form-control" id="validationDefault02" placeholder="ETH" value="" required>
+						    </div>
+						  </div>
+						</form>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancle</button>
+		        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmModal">BUY</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</section>
+
+	<section>
+		<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Order confirmation</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <h4 class="mb-5">Price</h4>
+				<p class="mb-20">3340.07 CNY/ETH</p>
+				<h4 class="mb-5">Amount</h4>
+				<p class="mb-20">1000 CNY</p>
+				<h4 class="mb-5">Quantiy</h4>
+				<p class="mb-20">0.299395 ETH</p>
+				<p class="mb-20">Reminder: Please confirm the price in the order, the order for this transation will then be locted. Please make sure you complety process the purchase order.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancle</button>
+		        <a href="chat_confirm.html" class="btn btn-primary">OK</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</section>
+</body>
+</html>

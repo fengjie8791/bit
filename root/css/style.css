@@ -1,0 +1,93 @@
+/* common */
+
+body{
+	background-color: #eee;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.h-100{
+	height: 100%;
+}
+
+.h-600p{
+	height: 600px;
+}
+
+.chat-box{
+	position: relative;
+	top:500px;
+}
+
+.chat-content{
+	position: absolute;
+}
+
+
+
+.navbar-center{
+	position: relative;
+	left:50%;
+	margin-left: -200px;
+}
+
+.list-centent img{
+	width: 60px;
+
+}
+
+.well-height-customize{
+	height: 280px;
+}
+
+.well{
+	margin-bottom:0;
+	border-radius: 10px;
+}
+
+
+.well-box{
+	padding:10px;
+}
+
+
+
+
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+	.navbar-center{
+		left: 0;
+		margin: 7.5px -15px;
+	}
+
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+}
